@@ -47,4 +47,18 @@ function domainName(url){
   engineer in the security department(TOV 'GEFEST')
 * March 2012 - June 2021(9 years 1 month)  
   engineer in the security department of TOV 'SAV-Distribution'.            
- This is the Foxtrot grout of companies in which I was involved in the installation, configuration and maintenance of security systems.  
+ This is the Foxtrot grout of companies in which I was involved in the installation, configuration and maintenance of security systems.
+
+ ------------------------------------------------
+ ## Education  
+ Electrical Engineer 
+ Faculty of Radio Electronics(2002-2007) 
+ Kharkiv National University of Radio Electronics
+ RS SHOOL courser
+ ------------------------------------------------
+   ## Language
+ English 
+ A0 - reading with a dictionary 
+ Ukraine
+    fluent language
+
