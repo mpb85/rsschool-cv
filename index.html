@@ -8,5 +8,141 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <div class="icon"></div>
+                <div class="nav">
+                    <nav>
+                        <ul>
+                            <li>contact</li>
+                            <li>about</li>
+                            <li>skills</li>
+                            <li>expiriens</li>
+                            <li>education</li>
+
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="contact">
+                <div class="contact__container">
+                    <h1>Malyutenko Roman</h1>
+                    <h3>Frontend developer</h3>
+                    <article>
+                        <h2>Contact information</h2>
+                        <ul>
+                            <li><a href="mailto:malutenkoroman@gmail.com">malutenkoroman@gmail.com</a></li>
+                            <li><a href="tel:+380660909999">+380660909999</a></li>
+                            <li><a href="https://www.google.com.ua/maps/place/%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C/@49.9946954,36.1210207,11z/data=!3m1!4b1!4m6!3m5!1s0x4127a09f63ab0f8b:0x2d4c18681aa4be0a!8m2!3d50.0020127!4d36.3073994!16zL20vMDgyc3k5?hl=ru&entry=ttu&g_ep=EgoyMDI2MDkwOS4wIKXMDSoASAFQAw%3D%3D">Ukraine Kharkiv</a></li>
+                            <li><a href="https://github.com/mpb85">Github</a></li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
+            <section class="about">
+                <div class="about__container">
+                    <h2>About me</h2>
+                    <p>
+                        Frontend developer, looking for an entry level position in
+                        the company. My goal is to develop in the derection frontend
+                        and become a highly qualified specialist in the field that i 
+                        like, and for which i am ready to spend a lot of time and 
+                        effort.
+                    </p>
+                </div>
+            </section>
+            <section class="skills">
+                <div class="skills__container">
+                    <h2>Software skills</h2>
+                    <ul>
+                        <li>Javascript(ES6+)</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>React</li>
+                        <li>Redux</li>
+                        <li>Rest API</li>
+                        <li>Ajax</li>
+                        <li>Json</li>
+                        <li>Git</li>
+                        <li>NodJS</li>
+                        <li>Angular</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="project">
+                <div class="project__container">
+                    <h2>Project</h2>
+                    <p>Social network(pet project) In this project,
+                        I learned how to work with React, CSS Modules,
+                        Grid, React router, Redux, react-redux which
+                        were taken to write the network of my study 
+                        paper. When loading user, I worked with REST API,
+                        Json, axios.
+                        Project link: <a href="https://github.com/mpb85/my-social-network" title="my social pet project">My social network</a></p>
+                </div>
+            </section>
+            <section class="code">
+                <div class="code__container">
+                    <h2>Code Example</h2>
+                    <pre>
+                        <code>
+                            function domainName(url){
+                                let pos;
+  
+                                if(url.indexOf('//') != -1){
+                                    pos = url.indexOf('//')+2;
+                                    url = url.slice(pos);
+                                }
+                                if(url.indexOf('www') != -1){
+                                    pos = url.indexOf('www')+4;
+                                    url = url.substring(pos);
+                                }
+                                if(url.indexOf('.') != -1){
+                                    pos = url.indexOf('.');
+                                    url = url.substring(0,pos);
+                                }
+ 
+                                 return url
+                            }
+                        </code>
+                    </pre>
+                </div>
+            </section>
+            <section class="expiriens">
+                <div class="expiriens__container">
+                    <h2>My Expiriens</h2>
+                    <ul>
+                        <li>
+                            May 2011 - March 2012(9 months) engineer in the security department(TOV 'GEFEST')
+                        </li>
+                        <li>March 2012 - June 2021(9 years 1 month)
+                            engineer in the security department of TOV 'SAV-Distribution'.
+                            This is the Foxtrot grout of companies in which I was involved in the installation, configuration and maintenance of security systems.
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="education">
+                <div class="education__container">
+                    <h2>Education</h2>
+                    <p>English A0 - reading with a dictionary Ukraine fluent language</p>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container">
+                <nav>
+                    <ul>
+                        <li><a href="https://github.com/mpb85">Github</a></li>
+                        <li>2026</li>
+                        <li><a href="https://rs.school/"><img src="logo.svg" alt=""></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
