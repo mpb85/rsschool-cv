@@ -1,12 +1,136 @@
-.header {
-    background-color: antiquewhite;
+/*------------------Normalize----------------------*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased; 
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+ul,
+ol {
+  padding: 0;
+}
+ul {
+  list-style-type: none; 
+  padding: 0;            
+  margin: 0;             
+}
+/*------------------Wrapper------------------------*/
+[class*="__container"] {
+     max-width: 1440px;
+     margin: 0 auto;
+     padding-inline: 20px;
+}
+/*------------------HTML---------------------------*/
+
+/*------------------Header-------------------------*/
+.header {
+   background-color: bisque;
+}
+.header__container {
+    padding-block: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon {
+    img {
+        display: block;
+        width: auto;
+        height: 50px;
+    }
+}
+.nav {
+    nav {
+        ul {
+            display: flex;
+            gap: 10px;
+            li {
+                font-size: 25px;
+            }
+        }
+    }
+}
+
+/*------------------Main---------------------------*/
 .main {
 }
-.content {
-    background-color: bisque;
-    font-size: 55em;
+.contact {
 }
+.contact__container {
+}
+.about {
+}
+.about__container {
+}
+.skills {
+}
+.skills__container {
+}
+.project {
+}
+.project__container {
+}
+.code {
+}
+.code__container {
+}
+.expiriens {
+}
+.expiriens__container {
+}
+.education {
+}
+.education__container {
+}
+/*------------------Footer-------------------------*/
 .footer {
-    background-color: cadetblue;
+    background-color: bisque;
+}
+.footer__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 30px;
+    nav{
+        
+        ul {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            font-size: 25px;
+        }
+    }
+}
+.footer_logo{
+    a {
+        img {
+            display: block;
+            height: 50px;
+            width: auto;
+        }
+    }
 }
